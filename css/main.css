@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 3vw;
+    text-align:  center;
+    font-family: Dancing script;
+}
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.container .nav-link{
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    margin: 0.3%;
+    padding: 0.3%;
+    font-size: 1.5vw;
+    text-decoration: none;
+    left: 0;
+    text-align: center;
+    
+}
+
+.imgindex{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgabout{
+    width: 40%;
+    
+}
+
+
+h2{
+    font-size: 1.5vw;
+}
+h3,p{
+    font-size: 1.5vw;
+    font-family: Dancing script;
+}
+
+
+footer{
+    background-color:black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    margin-top: 0px;
+}
+.redsoc {
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.redsoc a {
+    color: black;
+    margin: 0px 6px;
+    font-size: 2vw;
+}
+
+.img-cliente{
+   padding: 5px;
+   margin: 5px;
+   width: 350px;
+   height: 350px;
+}
+
+label,input{
+    font-size: 1.0vw;
+}
+
+ input[type=text],input[type=date],
+ input[type=number],input[type=text], select {
+   width: 80%;
+   padding: 1vw;
+   margin: 1vw;
+   display: inline-block;
+   border: 1vw;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2%;
+    margin: 1% 20%;
+    
+}
+
+.container,.contact,.about,.cli{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2%;
+    margin: 2% 10%;
+}
+
+
